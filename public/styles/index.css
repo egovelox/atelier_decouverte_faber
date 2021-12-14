@@ -1,0 +1,44 @@
+html {
+  background-color: black;
+  color: white;
+  font-family: 'Aclonica';
+  font-size: 22px;
+}
+
+#medaillon {
+  background-image: url("../images/animal_lola.jpg");
+  width: 500px;
+  height: 500px;
+  background-size: cover; /* Resize the image to cover the entire container */
+  background-position: right;
+  border: .2rem solid  white;
+  border-radius: 50%;
+  margin: auto;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
+
+body {
+  font-family: 'Arvo';font-size: 22px;
+  margin: auto;
+  text-align: center;
+}
+
+.menu {
+  margin: 20px;
+}
+.menu a {
+  color: white
+}
